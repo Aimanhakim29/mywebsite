@@ -1,0 +1,149 @@
+*{
+  justify-content: center;
+  font-family: "Zapfino", cursive;
+}
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color: rgb(0, 0, 0);
+    padding: 20px;
+}
+
+body {
+    margin: 20px;
+    background-color: #ffffef;
+}
+
+h1 {
+    text-align: center;
+    color: black;
+}
+
+h2 {
+    margin-top: 30px;
+    color: #3AA6B9;
+    text-align: center;
+}
+
+p {
+    margin-bottom: 10px;
+}
+
+nav {
+   
+    padding: 10px;
+}
+
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    color:white;
+  }
+  
+  nav li {
+      
+    margin-right: 50px;
+    font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+    color:white;	
+  }
+  
+  nav a {
+    color: black;
+    text-decoration: none;
+  
+    padding: 5px;
+    border-radius: 5px;
+  }
+  
+  nav a:hover {
+    color: #2b7a78;
+    color: #333;
+    text-decoration: underline;
+  }
+
+  marquee {
+    width: 100%;
+    direction: left;
+    height: 100px;
+    font-size: 24px;
+}
+
+
+style
+    body {
+      background-color: #f2f2f2;
+      font-family: Arial, sans-serif;
+    }
+
+    .container {
+      max-width: 800px;
+      margin: 0 auto;
+      padding: 40px;
+      background-color: #fff;
+      box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    }
+
+    .profile-section {
+      text-align: center;
+      margin-bottom: 40px;
+    }
+
+    .profile-section img {
+      width: 200px;
+      height: 200px;
+      border-radius: 50%;
+      object-fit: cover;
+      border: 5px solid #fff;
+      box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+    }
+
+    .name {
+      font-size: 32px;
+      font-weight: bold;
+      margin-bottom: 10px;
+    }
+
+    .occupation {
+      font-size: 20px;
+      color: #666;
+      margin-bottom: 20px;
+    }
+
+    .section {
+      margin-bottom: 30px;
+      background-color: #f9f9f9;
+      padding: 20px;
+      border: 1px solid #ccc;
+      border-radius: 5px;
+    }
+
+    .section h2 {
+      font-size: 24px;
+      font-weight: bold;
+      margin-bottom: 10px;
+    }
+
+    .section p {
+      font-size: 16px;
+      line-height: 1.6;
+    }
+
+    
+  marquee {
+    width: 100%;
+    direction: left;
+    height: 100px;
+    font-size: 24px;
+}
+
+.active{
+  background-color: #2b7a78;
+}
+ 
+
+
+    

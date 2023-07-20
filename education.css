@@ -1,0 +1,148 @@
+*{
+  justify-content: center;
+  font-family: "Zapfino", cursive;
+}
+
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color: rgb(0, 0, 0);
+    padding: 20px;
+}
+
+body {
+    
+    margin: 20px;
+    background-color: #ffffef;
+}
+
+h1 {
+    text-align: center;
+    color: black;
+}
+
+h2 {
+    margin-top: 30px;
+    color: #3AA6B9;
+}
+
+p {
+    margin-bottom: 10px;
+}
+
+nav {
+   
+    padding: 10px;
+}
+
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    color:white;
+  }
+  
+  nav li {
+      
+    margin-right: 50px;
+    font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+    color:white;	
+  }
+  
+  nav a {
+    color: black;
+    text-decoration: none;
+  
+    padding: 5px;
+    border-radius: 5px;
+  }
+  
+  nav a:hover {
+    color: #2b7a78;
+    color: #333;
+    text-decoration: underline;
+  }
+
+  
+  h1 {
+    color: #333;
+    text-align: center;
+  }
+  
+  .education-item {
+    margin-bottom: 30px;
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+  }
+  
+  .education-item h2 {
+    color: #666;
+    margin-bottom: 10px;
+  }
+  
+  .education-item p {
+    color: #777;
+    line-height: 1.6;
+  }
+  
+  .education-item p:last-child {
+    margin-bottom: 0;
+  }
+  
+  .timeline {
+    position: relative;
+    margin-top: 30px;
+  }
+  
+  .timeline::after {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 50%;
+    width: 2px;
+    height: 100%;
+    background-color: #333;
+    transform: translateX(-50%);
+  }
+  
+  .timeline-item {
+    position: relative;
+    margin-bottom: 30px;
+  }
+  
+  .timeline-item .date {
+    position: absolute;
+    top: -20px;
+    left: 50%;
+    transform: translateX(-50%);
+    background-color: #333;
+    color: #fff;
+    padding: 5px 10px;
+    border-radius: 5px;
+  }
+  
+  .timeline-item .content {
+    background-color: #f2f2f2;
+    padding: 20px;
+    border-radius: 10px;
+  }
+  
+  .timeline-item:last-child {
+    margin-bottom: 0;
+  }
+
+  marquee {
+    width: 100%;
+    direction: left;
+    height: 100px;
+    font-size: 24px;
+}
+
+.active{
+  background-color: #2b7a78;
+}
